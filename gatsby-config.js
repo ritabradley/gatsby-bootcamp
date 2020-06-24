@@ -1,3 +1,6 @@
 module.exports = {
-  plugins: [`gatsby-plugin-postcss`],
+    siteMetadata: {
+        title: `The Great Gatsby Bootcamp`,
+    },
+    plugins: [`gatsby-plugin-postcss`],
 }
