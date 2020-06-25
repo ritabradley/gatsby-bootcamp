@@ -22,21 +22,21 @@ const Header = () => {
                 <ul className="flex justify-between text-purple-200 m-0">
                     <Link
                         className="hover:text-purple-400 transition-all ease-in duration-300 px-5"
-                        activeClassName="text-gray-500"
+                        activeClassName="md:underline font-bold"
                         to="/about/"
                     >
                         About
                     </Link>
                     <Link
                         className="hover:text-purple-400 transition-all ease-in duration-300 px-5"
-                        activeClassName="text-gray-500"
+                        activeClassName="md:underline font-bold"
                         to="/blog/"
                     >
                         Blog
                     </Link>
                     <Link
                         className="hover:text-purple-400 transition-all ease-in duration-300 px-5"
-                        activeClassName="text-gray-500"
+                        activeClassName="md:underline font-bold"
                         to="/contact/"
                     >
                         Contact
