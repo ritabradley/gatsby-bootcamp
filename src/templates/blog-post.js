@@ -24,7 +24,7 @@ const BlogPost = () => {
         <ol className="divide-y divide-gray-400">
             {edges.map(post => (
                 <li className="py-4" key={post.node.frontmatter.title}>
-                    <h2 className="text-2xl text-purple-600 font-bold">
+                    <h2 className="text-2xl text-purple-600 font-semibold">
                         {post.node.frontmatter.title}
                     </h2>
                     <h3 className="text-lg text-gray-500 font-semibold">
